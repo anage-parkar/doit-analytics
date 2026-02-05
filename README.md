@@ -18,16 +18,17 @@ DoIt Analytics is a project designed to harness the power of AI agents for intel
 ## Project Structure
 
 ```
-doit-analytics/
-├── src/                    # Source code
-│   ├── agents/            # AI agent implementations
-│   ├── analytics/         # Analytics modules
-│   ├── api/               # API endpoints
-│   └── utils/             # Utility functions
-├── tests/                 # Test suites
-├── docs/                  # Documentation
-├── config/                # Configuration files
-└── requirements.txt       # Project dependencies
+ai-rag-agent/
+├── backend/           # FastAPI server
+│   ├── main.py       # API routes
+│   ├── rag_engine.py # Core RAG logic
+│   ├── models.py     # Pydantic models
+│   └── config.py     # Settings
+├── frontend/         # React app
+│   └── src/
+│       ├── App.jsx   # Main UI
+│       └── api.js    # API client
+└── docs/            # Guides
 ```
 
 ## Prerequisites
